@@ -19,7 +19,7 @@ def search():
             #set search flag
             country_search = True
             confed_search = False
-        elif usr_select == 'confederation' or usr_select == 'Confederation' or usr_select == 'CONFEDERATION':
+        elif usr_select == 'confederation' or usr_select == 'Confederation' or usr_select == 'CONFEDERATION' or user_select == 'confed' or usr_select == 'Confed' or usr_select == 'CONFED':
             #set search flag
             confed_search = True
             country_search = False
